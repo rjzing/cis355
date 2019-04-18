@@ -1,0 +1,14 @@
+tr {
+    text-align: center;
+}
+.white {
+    color: white;
+}
+body {
+	background-color: blue;
+}
+.footer {
+	font-size: 10pt;
+	bottom: 0;
+	position: fixed;
+}
