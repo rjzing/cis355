@@ -53,9 +53,9 @@ if(isset($_POST['upload']) && $_FILES['userfile']['size']>0)
    {
      $fileName = addslashes($fileName);
    }
-  $con = mysql_connect('localhost','rjzinger','rubyred') 
+  $con = mysql_connect('','','') 
     or die(mysql_error());
-  $db  = mysql_select_db('rjzinger',$con);
+  $db  = mysql_select_db('',$con);
   if($db)	  
   {
 	  //echo "hello, should be inserted";

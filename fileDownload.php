@@ -1,8 +1,8 @@
 <?php
 
 // connect to database
-mysql_connect("localhost","rjzinger","rubyred");
-mysql_select_db("rjzinger");
+mysql_connect("","","");
+mysql_select_db("");
 
 // if first time calling this php file, use first pic
 // else use value entered from form
